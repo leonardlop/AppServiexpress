@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/title_inicio"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_turnos"
+        android:title="@string/title_turnos"
+        android:icon="@drawable/ic_loop"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_servicios"
+        android:title="@string/title_servicios"
+        android:icon="@drawable/ic_two_wheeler"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_mensajes"
+        android:title="@string/title_mensajes"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_Menu"
+        android:title="@string/title_menu"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="never"/>
+
+
+</menu>

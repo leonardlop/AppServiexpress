@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppServiExpress</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="USUARIO">Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="NOMBRES">Nombres</string>
+    <string name="APELLIDOS">Apellidos</string>
+    <string name="DNI">Identificacion</string>
+    <string name="EMAIL">Correo</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_turnos">Turnos</string>
+    <string name="title_servicios">Servicios</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="title_mensajes">Mensajes</string>
+    <string name="title_menu">Opciones</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="nombreCliente">Cliente</string>
+    <string name="Servicio">Tipo_de_Servicio</string>
+    <string name="direccion">Direccion_de_Entrega</string>
+    <string name="telefono">Telefono</string>
+    <string name="valor">Valor</string>
+    <string name="nuevo_servicio">Nuevo Servicio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

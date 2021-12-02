@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.grupo2.appserviexpress.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/serviciosFragment"
+        android:name="com.grupo2.appserviexpress.ServiciosFragment"
+        android:label="fragment_servicios"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/turnosFragment"
+        android:name="com.grupo2.appserviexpress.TurnosFragment"
+        android:label="fragment_turnos"
+        tools:layout="@layout/fragment_turnos" >
+        <action
+            android:id="@+id/action_turnosFragment_to_datosActivity"
+            app:destination="@id/datos_activity" />
+    </fragment>
+    <activity
+        android:id="@+id/datos_activity"
+        android:name="com.grupo2.appserviexpress.DatosActivity"
+        android:label="activity_datos"
+        tools:layout="@layout/activity_datos" />
+    <activity
+        android:id="@+id/bienvenidaActivity"
+        android:name="com.grupo2.appserviexpress.BienvenidaActivity"
+        android:label="activity_bienvenida"
+        tools:layout="@layout/activity_bienvenida" />
+</navigation>
